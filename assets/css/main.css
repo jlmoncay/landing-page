@@ -274,10 +274,11 @@ section {
   color: #000;
   margin: 0;
   font-family: var(--font-secondary);
+  border-bottom: 2px solid #ce1212;
 }
 
 .header .logo h1 span {
-  color: var(--color-primary);
+  color: #000;
 }
 
 .header .btn-book-a-table,
@@ -885,6 +886,7 @@ section {
   font-size: 36px;
   font-weight: 600;
   color: var(--color-primary);
+  padding-bottom: 15px;
 }
 
 .menu .tab-content .menu-item {
@@ -910,12 +912,17 @@ section {
   font-family: var(--font-secondary);
   color: #8d8d9b;
   margin-bottom: 5px;
+  margin-left: 25px;
 }
 
 .menu .tab-content .menu-item .price {
   font-size: 24px;
   font-weight: 700;
   color: var(--color-primary);
+}
+
+.menu .row {
+  background-color: #EBEBEB;
 }
 
 /*--------------------------------------------------------------
@@ -1532,7 +1539,6 @@ section {
 .hero .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
-  margin-left: 25px;
   color: var(--font-secondary);
   font-weight: 600;
 }
@@ -1562,6 +1568,11 @@ section {
   .hero .btn-watch-video {
     font-size: 14px;
   }
+
+  /*.hero .img-fluid {
+    width: 300px;
+    height: 300px;
+  }*/
 }
 
 /*--------------------------------------------------------------
