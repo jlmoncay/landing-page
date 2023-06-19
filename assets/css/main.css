@@ -11,17 +11,21 @@
 # Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 --------------------------------------------------------------*/
 /* Fonts */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "Amatic SC", sans-serif;
+  --font-primary: 'Courgette', cursive;
   --font-secondary: "Inter", sans-serif;
 }
 
 /* Colors */
 :root {
-  --color-default: #212529;
-  --color-primary: #ce1212;
-  --color-secondary: #37373f;
+  --color-default: #000000;
+  --color-primary: #50f3eb;
+  --color-secondary: #9014f5;
 }
 
 /* Smooth scroll behavior */
@@ -43,7 +47,7 @@ a {
 }
 
 a:hover {
-  color: #ec2727;
+  color: #9cf560;
   text-decoration: none;
 }
 
@@ -65,7 +69,7 @@ section {
 }
 
 .section-bg {
-  background-color: #eee;
+  background-color: #fdf2fb;
 }
 
 .section-header {
@@ -82,6 +86,7 @@ section {
   color: #7f7f90;
   text-transform: uppercase;
   font-family: var(--font-default);
+  
 }
 
 .section-header p {
@@ -274,7 +279,7 @@ section {
   color: #000;
   margin: 0;
   font-family: var(--font-secondary);
-  border-bottom: 2px solid #ce1212;
+  border-bottom: 2px solid #7e3ad8;
 }
 
 .header .logo h1 span {
@@ -336,7 +341,7 @@ section {
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 600;
-    color: #7f7f90;
+    color: #0000f5;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -648,7 +653,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(206, 18, 18, 0.7);
+  border: 5px solid rgba(49, 206, 18, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -786,7 +791,8 @@ section {
 # Stats Counter Section
 --------------------------------------------------------------*/
 .stats-counter {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/stats-bg.jpg") center center;
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(247, 247, 247, 0.7)),url(https://c8.alamy.com/compes/tdcb20/cono-de-helado-patron-sin-fisuras-en-fondo-blanco-blanco-y-negro-patron-tdcb20.jpg) center center;
+
   background-size: cover;
   padding: 100px 0;
 }
@@ -805,7 +811,7 @@ section {
 .stats-counter .stats-item span {
   font-size: 48px;
   display: block;
-  color: #fff;
+  color: #6217b8;
   font-weight: 700;
 }
 
@@ -813,9 +819,9 @@ section {
   padding: 0;
   margin: 0;
   font-family: var(--font-secondary);
-  font-size: 16px;
-  font-weight: 700;
-  color: rgba(255, 255, 255, 0.6);
+  font-size: 23px;
+  font-weight: 800;
+  color: rgb(10, 108, 255);
 }
 
 /*--------------------------------------------------------------
@@ -970,7 +976,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #f05656;
+  color: #56f070;
   font-size: 26px;
   line-height: 0;
 }
@@ -1222,7 +1228,7 @@ section {
 .book-a-table .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #df1529;
+  background: #44df15;
   text-align: left;
   padding: 15px;
   margin-bottom: 24px;
@@ -1290,7 +1296,7 @@ section {
 }
 
 .book-a-table .php-email-form button[type=submit]:hover {
-  background: #ec2727;
+  background: #27ec79;
 }
 
 @keyframes animate-loading {
@@ -1408,7 +1414,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #df1529;
+  background: #9515df;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1476,7 +1482,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ec2727;
+  background: #37ec27;
 }
 
 @keyframes animate-loading {
@@ -1498,6 +1504,8 @@ section {
   position: relative;
   min-height: 60vh;
   padding: 160px 0 60px 0;
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(247, 247, 247, 0.9)),url(https://c8.alamy.com/compes/tdcb20/cono-de-helado-patron-sin-fisuras-en-fondo-blanco-blanco-y-negro-patron-tdcb20.jpg) center center;
+
 }
 
 .hero h2 {
@@ -1532,8 +1540,8 @@ section {
 }
 
 .hero .btn-book-a-table:hover {
-  background: rgba(206, 18, 18, 0.8);
-  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
+  background: rgba(124, 243, 109, 0.8);
+  box-shadow: 0 8px 28px rgba(27, 241, 142, 0.45);
 }
 
 .hero .btn-watch-video {
@@ -1556,7 +1564,7 @@ section {
 }
 
 .hero .btn-watch-video:hover i {
-  color: rgba(206, 18, 18, 0.8);
+  color: rgba(255, 0, 255, 0.8);
 }
 
 @media (max-width: 640px) {
@@ -1580,9 +1588,9 @@ section {
 --------------------------------------------------------------*/
 .footer {
   font-size: 14px;
-  background-color: #1f1f24;
+  background-color: #f0fccf;
   padding: 50px 0;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .footer .icon {
@@ -1596,7 +1604,7 @@ section {
   font-weight: bold;
   position: relative;
   padding-bottom: 5px;
-  color: #fff;
+  color: #0d055a;
 }
 
 .footer .footer-links {
@@ -1627,7 +1635,7 @@ section {
 }
 
 .footer .footer-links ul a:hover {
-  color: #fff;
+  color: #000000;
 }
 
 .footer .social-links a {
@@ -1639,14 +1647,14 @@ section {
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.2);
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(11, 23, 88, 0.7);
   margin-right: 10px;
   transition: 0.3s;
 }
 
 .footer .social-links a:hover {
-  color: #fff;
-  border-color: #fff;
+  color: #000000;
+  border-color: #000000;
 }
 
 .footer .copyright {
@@ -1662,5 +1670,9 @@ section {
 }
 
 .footer .credits a {
-  color: #fff;
+  color: #000000;
+}
+
+#headerMenu{
+  background-color: #f2f8f4;
 }
